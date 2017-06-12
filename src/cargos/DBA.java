@@ -9,6 +9,7 @@ public class DBA extends Cargo {
 	private final static double SALARIO_BASE_DBA = 2000.0;
 	
 	public DBA() {
+		super();
 		setSalarioBase(SALARIO_BASE_DBA);
 		setSalarioLiquido(SALARIO_BASE_DBA);
 		setMinimaPorcentagemDesconto(MIN_PORC_DESC_DBA);

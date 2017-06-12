@@ -10,6 +10,7 @@ public class Testador extends Cargo {
 	private static final double SALARIO_BASE_TESTADOR = 2000.0;
 	
 	public Testador() {
+		super();
 		setSalarioBase(SALARIO_BASE_TESTADOR);
 		setSalarioLiquido(SALARIO_BASE_TESTADOR);
 		setMinimaPorcentagemDesconto(MIN_PORC_DESC_TESTADOR);

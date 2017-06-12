@@ -7,7 +7,7 @@ public abstract class Cargo {
 	private double salarioLiquido;
 	private double desconto;
 	private double salarioBase;
-	private double minimaPorcentagemDesconto = 0.0;
+	private double minimaPorcentagemDesconto;
 	private double maximaPorcentagemDesconto = 100.0;
 	
 	public Cargo() {
@@ -66,7 +66,7 @@ public abstract class Cargo {
 		return salarioLiquido;
 	}
 
-	public void setSalarioLiquido(final double novoSalarioLiquido) {
+	public final void setSalarioLiquido(final double novoSalarioLiquido) {
 		this.salarioLiquido = novoSalarioLiquido;
 	}
 
